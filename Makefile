@@ -1,3 +1,5 @@
+.PHONY: init build_asset run
+
 init:
 	pip install -r requirements.txt
 	git submodule update --init
